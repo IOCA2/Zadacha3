@@ -1,0 +1,19 @@
+image: Ubuntu2004
+
+stack: jdk 11
+
+branches:
+  only:
+    - main
+
+build: off
+install:
+
+  - java -jar ./Zadacha3/gradle/wrapper/gradle-wrapper.jar &
+  - chmod +x gradlew
+
+build_script:
+  # Запускаем автотесты
+  # Для проектов на базе Selenide необходимо добавить параметр для запуска браузера
+  # в headless режиме -Dselenide.headless=true, параметр --info должен остаться
+  - ./gradlew test --info
