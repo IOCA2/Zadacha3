@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="AccTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-02-01T10:58:41" hostname="LAPTOP-I2UE03QL" time="3.645">
+  <properties/>
+  <testcase name="TestOfAccInfo()" classname="AccTest" time="3.645"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
